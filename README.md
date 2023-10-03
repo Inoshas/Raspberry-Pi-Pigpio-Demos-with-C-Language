@@ -31,8 +31,6 @@ Feel free to explore the examples in this repository to learn more about working
 
 ## Collaborative Team
 
-We are a collaborative team of equal members who are all actively learning and working together on this project. Each team member has made valuable contributions, and we believe in sharing credit equally.
-
 - [Antti Buller](https://github.com/anatt1b)
   
 - [Inosha Sugathapala](https://github.com/Inoshas)
