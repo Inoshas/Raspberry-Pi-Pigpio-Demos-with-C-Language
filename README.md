@@ -15,21 +15,19 @@ Welcome to the Raspberry Pi 4 Model B Pigpio Demos with C-language repository! T
 ## Examples
 
 ### Example 01: LED Blink
-
 **Filename:** 01_LEDblink.c
 
 **Description:**
 This example demonstrates how to control an LED connected to a GPIO pin on your Raspberry Pi. The program blinks the LED on and off in a loop until you press Ctrl+C to exit. It serves as a basic introduction to GPIO pin manipulation using Pigpio.
 
 ### Example 02: Traffic Light Simulation
-
 **Filename:** 02_trafficlight.c
 
 **Description:**
 In this example, we simulate a traffic light using multiple LEDs connected to GPIO pins on your Raspberry Pi. The program cycles through the typical traffic light sequence: green light on for 3 seconds, followed by yellow light blinking for 3 seconds, and then the red light on for 3 seconds. The cycle repeats until you press Ctrl+C to exit. This example demonstrates more advanced GPIO pin control and sequencing using the Pigpio library.
 
-### Example 03: LED Chase Light
 
+### Example 03: LED Chase Light
 **Filename:** 03_chaselight.c
 
 **Description:**
@@ -45,10 +43,10 @@ This example demonstrates how to control an LED using a push-button switch conne
 
 
 
-## Example 05: LED Three-Button Control
+### Example 05: LED Three-Button Control
 **Filename: 05_LEDthreeButtonControl.c**
 
-### Description:
+**Description:**
 This example demonstrates how to control three LEDs using three push-button switches connected to GPIO pins on your Raspberry Pi. Each button toggles the state of its corresponding LED between ON and OFF. The program also debounces the button inputs to ensure reliable operation.
 
 
