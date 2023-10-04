@@ -1,8 +1,5 @@
 # Raspberry Pi Pigpio Demos with C-language
 
-
-
-
 Welcome to the Raspberry Pi 4 Model B Pigpio Demos with C-language repository! This repository contains a series of practical examples and tutorials for programming GPIO pins on a Raspberry Pi using the Pigpio library.
 
 ## Table of Contents
@@ -53,7 +50,7 @@ This example demonstrates how to control three LEDs using three push-button swit
 ### Example 06: Buzzer Control
 **Filename: 06_buzzer.c**
 
-### Description:
+**Description:**
 This example demonstrates how to control a buzzer connected to a GPIO pin on your Raspberry Pi. The program toggles the buzzer on and off with a 2-second delay in a loop. You can exit the program by pressing Ctrl+C. The code also handles GPIO cleanup.
 
 
