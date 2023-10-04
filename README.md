@@ -1,9 +1,9 @@
-# Raspberry Pi Pigpio Demos
+# Raspberry Pi Pigpio Demos with C-language
 
 
 
 
-Welcome to the Raspberry Pi 4 Model B Pigpio Demos repository! This repository contains a series of practical examples and tutorials for programming GPIO pins on a Raspberry Pi using the Pigpio library.
+Welcome to the Raspberry Pi 4 Model B Pigpio Demos with C-language repository! This repository contains a series of practical examples and tutorials for programming GPIO pins on a Raspberry Pi using the Pigpio library.
 
 ## Table of Contents
 
