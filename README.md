@@ -50,6 +50,13 @@ This example demonstrates how to control an LED using a push-button switch conne
 This example demonstrates how to control three LEDs using three push-button switches connected to GPIO pins on your Raspberry Pi. Each button toggles the state of its corresponding LED between ON and OFF. The program also debounces the button inputs to ensure reliable operation.
 
 
+### Example 06: Buzzer Control
+**Filename: 06_buzzer.c**
+
+### Description:
+This example demonstrates how to control a buzzer connected to a GPIO pin on your Raspberry Pi. The program toggles the buzzer on and off with a 2-second delay in a loop. You can exit the program by pressing Ctrl+C. The code also handles GPIO cleanup.
+
+
 ## Getting Started
 
 To get started with these demos, follow these steps:
