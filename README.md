@@ -54,6 +54,12 @@ This example demonstrates how to control three LEDs using three push-button swit
 This example demonstrates how to control a buzzer connected to a GPIO pin on your Raspberry Pi. The program toggles the buzzer on and off with a 2-second delay in a loop. You can exit the program by pressing Ctrl+C. The code also handles GPIO cleanup.
 
 
+## Example 07: 8-Segment Number Display
+**Filename: 07_numberdisplay.c**
+
+### Description:
+This example demonstrates how to control a 8-segment number display using GPIO pins on your Raspberry Pi. The program cycles through numbers 0-9 with a 1-second delay for each digit, displaying them on the 8-segment display. You can exit the program by pressing Ctrl+C. The code also handles GPIO cleanup.
+
 ## Getting Started
 
 To get started with these demos, follow these steps:
