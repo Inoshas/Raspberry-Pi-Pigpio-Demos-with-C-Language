@@ -41,7 +41,7 @@ In this example, we create a captivating LED chase light effect using an array o
 **Description:**
 This example demonstrates how to control an LED using a push-button switch connected to a GPIO pin on your Raspberry Pi. When the button is pressed, it toggles the state of an LED (Red LED) between ON and OFF. The program also debounces the button input to ensure reliable operation.
 
-![LEd_button_control](Circuit_diagram/04_LEDBbuttonCotrol.png)
+![LEd_button_control](Circuit_diagram/04_LEDBbuttonControl.png)
 
 ### Example 05: LED Three-Button Control
 **Filename: 05_LEDthreeButtonControl.c**
