@@ -17,6 +17,8 @@ Welcome to the Raspberry Pi 4 Model B Pigpio Demos with C-language repository! T
 **Description:**
 This example demonstrates how to control an LED connected to a GPIO pin on your Raspberry Pi. The program blinks the LED on and off in a loop until you press Ctrl+C to exit. It serves as a basic introduction to GPIO pin manipulation using Pigpio.
 
+![LED_blink](Circuit_diagram/01_LEDblink.png)
+
 ### Example 02: Traffic Light Simulation
 **Filename:** 02_trafficlight.c
 
