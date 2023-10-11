@@ -25,6 +25,7 @@ This example demonstrates how to control an LED connected to a GPIO pin on your 
 **Description:**
 In this example, we simulate a traffic light using multiple LEDs connected to GPIO pins on your Raspberry Pi. The program cycles through the typical traffic light sequence: green light on for 3 seconds, followed by yellow light blinking for 3 seconds, and then the red light on for 3 seconds. The cycle repeats until you press Ctrl+C to exit. This example demonstrates more advanced GPIO pin control and sequencing using the Pigpio library.
 
+![Traffic Light](Circuit_diagram/02_trafficlight.png)
 
 ### Example 03: LED Chase Light
 **Filename:** 03_chaselight.c
