@@ -33,7 +33,7 @@ In this example, we simulate a traffic light using multiple LEDs connected to GP
 **Description:**
 In this example, we create a captivating LED chase light effect using an array of GPIO pins on your Raspberry Pi. The program cycles through the LEDs, turning them on and off sequentially to create a visually appealing chasing pattern. The chase light effect runs until you press Ctrl+C to exit. This example showcases advanced GPIO pin control for creating dynamic lighting patterns.
 
-
+![LED_chase_light](Circuit_diagram/03_chaselight.png)
 
 ### Example 04: LED Button Control
 **Filename: 04_LEDbuttonControl.c**
@@ -41,7 +41,7 @@ In this example, we create a captivating LED chase light effect using an array o
 **Description:**
 This example demonstrates how to control an LED using a push-button switch connected to a GPIO pin on your Raspberry Pi. When the button is pressed, it toggles the state of an LED (Red LED) between ON and OFF. The program also debounces the button input to ensure reliable operation.
 
-
+![LEd_button_control](Circuit_diagram/04_LEDbuttonCotrol.png)
 
 ### Example 05: LED Three-Button Control
 **Filename: 05_LEDthreeButtonControl.c**
