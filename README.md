@@ -70,8 +70,8 @@ To get started with these demos, follow these steps:
 1. Clone this repository to your Raspberry Pi.
 2. Install the Pigpio library if you haven't already (see [Installing Pigpio](#installing-pigpio)).
 3. Navigate to the demo file you want to run.
-4. Compile and run the demo code as instructed in the demos's README or source code comments.
-
+4. Make sure your circuit has setup correctly. 
+5. Compile and run the demo code as instructed (see [Exceute the code](#execute-the-code)).
 ## Installing Pigpio
 
 Before running the Pigpio projects, you need to install the Pigpio library on your Raspberry Pi. Follow these steps:
@@ -79,13 +79,21 @@ Before running the Pigpio projects, you need to install the Pigpio library on yo
 1. Open a terminal on your Raspberry Pi.
 
 2. Update the package list:
-sudo apt-get update
+    '''shell
+    sudo apt-get update
 
 3. Install the Pigpio library:
-sudo apt-get install pigpio
+    '''shell
+    sudo apt-get install pigpio
 
 4. Start the Pigpio daemon:
-sudo pigpiod
+    '''shell
+    sudo pigpiod
+
+## Execute the code
+
+After install pigpio library, you can follow below steps to execute the code.
+
 
 
 Feel free to explore the examples in this repository to learn more about working with GPIO pins and hardware control on your Raspberry Pi using the Pigpio library. Each example is accompanied by its own source code file and a description in this README.
