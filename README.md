@@ -79,15 +79,15 @@ Before running the Pigpio projects, you need to install the Pigpio library on yo
 1. Open a terminal on your Raspberry Pi.
 
 2. Update the package list:
-    '''shell
+    ```shell
     sudo apt-get update
 
 3. Install the Pigpio library:
-    '''shell
+    ```shell
     sudo apt-get install pigpio
 
 4. Start the Pigpio daemon:
-    '''shell
+    ```shell
     sudo pigpiod
 
 ## Execute the code
