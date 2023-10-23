@@ -114,7 +114,7 @@ To ensure a clean start, it's a good practice to terminate any existing pigpiod 
 
 4. Run Your Program: Execute your compiled program using this command:
     ```shell
-    ./myprogram
+    sudo ./myprogram
 
 Feel free to explore the examples in this repository to learn more about working with GPIO pins and hardware control on your Raspberry Pi using the Pigpio library. Each example is accompanied by its own source code file and a description in this README.
 
