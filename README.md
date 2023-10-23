@@ -96,7 +96,6 @@ After install pigpio library, follow below steps to execute the code.
 1. Open a terminal on your Raspberry Pi.
 
 2. Updating Package List:
-
 To ensure your system has the latest package information, use the following command to update the package list:
     ```shell
     sudo apt-get update -y
@@ -107,12 +106,12 @@ To ensure your system has the latest package information, use the following comm
     gcc -Wall -o myprogram myprogram.c -lpigpiod
 
 3. Step 3: Terminate Any Running pigpiod Programs
-
 To ensure a clean start, it's a good practice to terminate any existing pigpiod programs. You can do this using the following command:
     ```shell
     sudo killall pigpiod
 
-4. Run Your Program: Execute your compiled program using this command:
+4. Run Your Program:
+Execute your compiled program using this command:
     ```shell
     sudo ./myprogram
 
