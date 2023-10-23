@@ -57,11 +57,35 @@ This example demonstrates how to control three LEDs using three push-button swit
 This example demonstrates how to control a buzzer connected to a GPIO pin on your Raspberry Pi. The program toggles the buzzer on and off with a 2-second delay in a loop. You can exit the program by pressing Ctrl+C. The code also handles GPIO cleanup.
 
 
-### Example 07: 8-Segment Number Display
+### Example 07: 7-Segment Number Display
 **Filename: 07_numberdisplay.c**
 
 **Description:**
 This example demonstrates how to control a 8-segment number display using GPIO pins on your Raspberry Pi. The program cycles through numbers 0-9 with a 1-second delay for each digit, displaying them on the 8-segment display. You can exit the program by pressing Ctrl+C. The code also handles GPIO cleanup.
+
+
+
+### Example 09: LED Multiplexing
+
+**Filename:** LEDmultiplexing.c
+
+**Description:**
+The `led_multiplexing.c` program showcases LED multiplexing using Raspberry Pi and the Pigpio library. In this example, a 74HC595 shift register is used to control an array of LEDs with a multiplexed display, creating different visual patterns and effects.
+
+This example provides insights into managing LEDs in a multiplexed display and creating captivating lighting patterns with Pigpio.
+
+
+### Example 10: LED Matrix
+
+**Filename:** LEDmatrix.c
+
+**Description:**
+The `LEDmatrix.c` program demonstrates how to control an LED matrix using Raspberry Pi and the Pigpio library. The code defines GPIO pins for columns and rows to manipulate the LEDs effectively. It sets up a chase light effect, turning LEDs on and off sequentially, creating an engaging visual pattern.Press Ctrl+C to exit and stop the LED matrix animation.
+
+Explore this example to learn more about GPIO pin manipulation and creating dynamic LED patterns with Pigpio.
+
+
+
 
 ## Getting Started
 
