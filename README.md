@@ -95,6 +95,13 @@ Before running the Pigpio projects, you need to install the Pigpio library on yo
 After install pigpio library, follow below steps to execute the code.
 1. Open a terminal on your Raspberry Pi.
 
+2. Updating Package List:
+
+To ensure your system has the latest package information, use the following command to update the package list:
+    ```shell
+    sudo apt-get update -y
+
+
 2. Compile the C code: Use the gcc compiler to compile your C code. Replace myprogram with the name you want to give to your executable. For example:
     ```shell
     gcc -Wall -o myprogram myprogram.c -lpigpiod
@@ -108,7 +115,6 @@ To ensure a clean start, it's a good practice to terminate any existing pigpiod 
 4. Run Your Program: Execute your compiled program using this command:
     ```shell
     ./myprogram
-
 
 Feel free to explore the examples in this repository to learn more about working with GPIO pins and hardware control on your Raspberry Pi using the Pigpio library. Each example is accompanied by its own source code file and a description in this README.
 
