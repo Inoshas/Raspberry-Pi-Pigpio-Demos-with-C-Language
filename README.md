@@ -65,7 +65,7 @@ This example demonstrates how to control a 8-segment number display using GPIO p
 
 
 
-### Example 09: LED Multiplexing
+### Example 08: LED Multiplexing
 
 **Filename:** LEDmultiplexing.c
 
@@ -75,7 +75,7 @@ The `led_multiplexing.c` program showcases LED multiplexing using Raspberry Pi a
 This example provides insights into managing LEDs in a multiplexed display and creating captivating lighting patterns with Pigpio.
 
 
-### Example 10: LED Matrix
+### Example 09: LED Matrix
 
 **Filename:** LEDmatrix.c
 
